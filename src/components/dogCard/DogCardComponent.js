@@ -1,6 +1,6 @@
 import React from 'react';
 import ellie from '../../images/Ellie_Pic.jpg';
-import './DogCardComponent.css';
+import './DogCardComponent.less';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
