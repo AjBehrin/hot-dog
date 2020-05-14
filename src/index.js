@@ -5,7 +5,7 @@ import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
 
 // Importing Bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/bootstrap/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>

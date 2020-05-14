@@ -1,4 +1,4 @@
-.flexCard {
+/* .flexCard {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -6,4 +6,19 @@
 
   padding: 0;
   margin: 0;
+} */
+
+.flexCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  align-content: space-around;
+  background-color: lightblue;
+  padding: 0px;
+}
+
+.hotdogContainer {
+  padding-right: 0px;
+  padding-left: 0px;
 }

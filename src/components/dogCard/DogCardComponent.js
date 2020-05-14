@@ -11,7 +11,8 @@ function DogCardComponent() {
           <Card.Header as="h4" className="cardHeader">Ellie</Card.Header>
           <Card.Img variant="top" src={ellie} />
           <Card.Body>
-            <Card.Title className="drinkTitle">Ellies Drink: Bee's Knees</Card.Title>
+            <Card.Title className="drinkTitle">Ellies Drink:</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">Bee's Knees</Card.Subtitle>
             <Card.Text className="dogInfo">
               Here's some info on this gosh darn diggity dog
             </Card.Text>
