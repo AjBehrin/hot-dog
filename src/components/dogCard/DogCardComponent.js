@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 function DogCardComponent() {
   return (
-    <div className="dogCard dogFlex">
+    <div className="dogCard dogFlex dogList">
         <Card>
           <Card.Header as="h4" className="cardHeader">Ellie</Card.Header>
           <Card.Img variant="top" src={ellie} />
@@ -16,7 +16,7 @@ function DogCardComponent() {
             <Card.Text className="dogInfo">
               Here's some info on this gosh darn diggity dog
             </Card.Text>
-            <Button variant="primary">More Information</Button>
+            <Button variant="primary" href="/addDog">More Information</Button>
           </Card.Body>
         </Card>
     </div>
